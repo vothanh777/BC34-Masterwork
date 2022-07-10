@@ -7,6 +7,15 @@
   max-width: 1280px;
   margin: auto;
 }
+/* //header */
+.fixed-top {
+  position: fixed;
+  background-color: #fff;
+  border-bottom: 0px solid;
+  width: 100%;
+  top: 0;
+  z-index: 1030;
+}
 #header .navbar-nav {
   align-items: center;
 }
@@ -94,7 +103,10 @@
   background-color: #dc4f72;
   border-color: #dc4f72;
 }
+/* end header */
+/* .caros */
 .caros {
+  margin-top: 80px;
   padding: 15px 20px;
   background-color: rgb(247, 249, 252, 1);
 }
@@ -123,13 +135,17 @@
 
 .slider-1 {
   background-color: #f7f9fc;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 .grids5-info {
   display: grid;
   grid-template-columns: 50% 50%;
   align-items: center;
-  width: 98%;
+  width: 100%;
   height: 80%;
+  border: 0px solid;
+  background-color: white;
 }
 .grids5-info {
   line-height: 40px;
@@ -137,6 +153,7 @@
 .grids5-info img {
   width: 100%;
   height: 100%;
+  border-radius: 5px;
 }
 .grids5-info .zoom {
   position: relative;
@@ -177,7 +194,8 @@
   top: 8px;
   color: #dc4f72;
 }
-
+/* end caros */
+/* carosuel */
 .carousel-control-prev .carousel-control-prev-icon {
   background-color: #dc4f72;
   font-size: 30px;
@@ -266,10 +284,13 @@ label.red {
 .slix .grids5-info h4 a {
   font-size: 22px;
   line-height: 27px;
-  color: var(--title-color);
+  color: #2c3038;
   display: block;
   font-weight: 600;
   text-decoration: none;
+}
+.slix .grids5-info h4 a:hover {
+  color: #dc4f72;
 }
 .slix .grids5-info .btn-news {
   transform: translateX(-12px);
@@ -282,4 +303,148 @@ label.red {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
   transition: 0.3s ease-in-out;
+}
+.slix .mt-5 {
+  margin-top: 20px;
+}
+.slix .pagination {
+  display: flex;
+  list-style: none;
+  border-radius: 8px;
+}
+.slix .page-link {
+  color: #5a5a5a;
+  border-radius: 6px;
+  margin: 0 8px;
+}
+.slix .page-link:hover {
+  color: #dc4f72;
+  border: 1px solid #dc4f72;
+  background: #eaeaea;
+  transition: all 0.3s;
+}
+.slixcon {
+  margin-top: 50px;
+}
+/* carousel */
+/* footer */
+.footer {
+  margin-top: 40px;
+}
+.footer-1 {
+  background-color: #f7f9fc;
+}
+.footer-1 h3 {
+  font-size: 20px;
+  line-height: 25px;
+  color: #2c3038;
+  margin-bottom: 30px;
+  font-weight: 700;
+  padding-left: 28px;
+}
+.footer-1 .footer-gd-16 li {
+  display: block;
+  list-style: none;
+  margin: 10px 0;
+}
+.footer-1 .footer-gd-16 li a {
+  color: #656f7b;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  padding: 0;
+  text-decoration: none;
+}
+.footer-1 .footer-gd-16 li a:hover {
+  color: #dc4f72;
+}
+.columns-2 ul li {
+  display: inline;
+}
+.footer-1 .pl-lg-5 {
+  padding-left: 50px;
+}
+.footer-1 .end-column {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 6px;
+}
+.footer-1 form {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+.footer-1 .subscribe input[type="email"] {
+  background: #f7f9fc;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  outline: none;
+  width: 78%;
+  color: #2c3038;
+  font-weight: 600;
+  border-radius: 6px;
+}
+.footer-1 .subscribe button {
+  text-align: center;
+  background: #dc4f72;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 20px;
+  cursor: pointer;
+  width: 20%;
+  color: #fff;
+  border-radius: 6px;
+}
+.footer-1 .below-section {
+  border-top: 1px solid #eaeaea;
+}
+.footer-1 .below-section p a {
+  text-decoration: none;
+  color: #2c3038;
+}
+.footer-1 .below-section p a:hover {
+  color: #dc4f72;
+}
+.social li {
+  padding-left: 55px;
+}
+.social li a {
+  color: #2c3038;
+}
+.social li a:hover {
+  color: #dc4f72;
+}
+/* backtoptop */
+.backtotop {
+  width: 50px;
+  height: 50px;
+  background: #f55f8d;
+  border-radius: 8px;
+  line-height: 50px;
+  text-align: center;
+  display: block;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  color: #fff;
+  transition: all 0.2s;
+  box-shadow: -4px 4px 24px -10px #f55f8d;
+  visibility: hidden;
+  opacity: 0;
+}
+.fa-arrow-up::before {
+  content: "\f062";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+.video img {
+  align-items: center;
 }
