@@ -370,3 +370,121 @@
   color: #2c3038;
   font-weight: 600;
 }
+.lixmax7 {
+  max-width: 750px;
+  margin: 0 auto;
+}
+.lixmax7 .content-29-form h3 {
+  font-size: 35px;
+  color: #2c3038;
+  font-weight: 600;
+}
+.lixmax7 .w3l-forms-29-form input {
+  padding: 15px 0px;
+  margin-bottom: 30px;
+  background-color: #f7f9fc;
+  padding-left: 15px;
+}
+.lixmax7 .w3l-forms-29-form textarea {
+  background-color: #f7f9fc;
+}
+.text-right .btn-primary {
+  border-color: #dc4f72;
+  color: white;
+  background-color: #dc4f72;
+}
+.text-right {
+  text-align: end;
+}
+.text-right .btn-primary:hover {
+  background-color: #d62f58;
+}
+.footer {
+  margin-top: 40px;
+}
+.footer-1 {
+  background-color: #f7f9fc;
+  padding-top: 25px;
+}
+.footer-1 h3 {
+  font-size: 20px;
+  line-height: 25px;
+  color: #2c3038;
+  margin-bottom: 30px;
+  font-weight: 700;
+  padding-left: 28px;
+}
+.footer-1 .footer-gd-16 li {
+  display: block;
+  list-style: none;
+  margin: 10px 0;
+}
+.footer-1 .footer-gd-16 li a {
+  color: #656f7b;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  padding: 0;
+  text-decoration: none;
+}
+.footer-1 .footer-gd-16 li a:hover {
+  color: #dc4f72;
+}
+.columns-2 ul li {
+  display: inline;
+}
+.footer-1 .pl-lg-5 {
+  padding-left: 50px;
+}
+.footer-1 .end-column {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 6px;
+}
+.footer-1 form {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+.footer-1 .subscribe input[type="email"] {
+  background: #f7f9fc;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  outline: none;
+  width: 78%;
+  color: #2c3038;
+  font-weight: 600;
+  border-radius: 6px;
+}
+.footer-1 .subscribe button {
+  text-align: center;
+  background: #dc4f72;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 20px;
+  cursor: pointer;
+  width: 20%;
+  color: #fff;
+  border-radius: 6px;
+}
+.footer-1 .below-section {
+  border-top: 1px solid #eaeaea;
+}
+.footer-1 .below-section p a {
+  text-decoration: none;
+  color: #2c3038;
+}
+.footer-1 .below-section p a:hover {
+  color: #dc4f72;
+}
+.social li {
+  padding-left: 55px;
+}
+.social li a {
+  color: #2c3038;
+}
+.social li a:hover {
+  color: #dc4f72;
+}
