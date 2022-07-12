@@ -122,7 +122,7 @@
 .owl-carousel .owl-stage-outer {
   position: relative;
   overflow: hidden;
-  -webkit-transform: translate3d(0, 0, 0);
+  /* webkit-transform: translate3d(0, 0, 0); */
 }
 .blog-info {
   padding: 30px;
@@ -333,6 +333,7 @@ label.red {
 }
 .footer-1 {
   background-color: #f7f9fc;
+  padding-top: 25px;
 }
 .footer-1 h3 {
   font-size: 20px;
