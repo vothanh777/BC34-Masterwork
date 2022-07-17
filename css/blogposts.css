@@ -114,8 +114,12 @@
   margin-left: 12px;
   font-size: 14px;
   color: #dc4f72;
+  text-decoration: none;
 }
-
+.caros-1 a:hover {
+  text-decoration: underline;
+  color: #dc4f72;
+}
 .carousel-indicators {
   flex-wrap: nowrap;
 }
